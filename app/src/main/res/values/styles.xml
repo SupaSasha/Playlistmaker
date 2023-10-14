@@ -45,8 +45,5 @@
         <item name="android:background">@color/Transparent</item>
     </style>
 
-    <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
-        @null
-    </style>
 
 </resources>
