@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/indent_4"
+        tools:ignore="RtlSymmetry,UseCompoundDrawables,UselessParent">
+
+        <ImageButton
+            android:id="@+id/button_back"
+            android:layout_width="@dimen/image_button_size"
+            android:layout_height="@dimen/image_button_size"
+            android:layout_gravity="center_vertical"
+            android:background="@color/Transparent"
+            app:srcCompat="@drawable/arrow_left" />
+
+        <TextView
+            style="@style/HeaderTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="28dp"
+            android:text="@string/settings" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/indent_16"
+        android:paddingTop="40dp">
+
+        <androidx.appcompat.widget.SwitchCompat
+            style="@style/DarkTheme_Switch"
+            android:id="@+id/switch_dark_theme"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/dark_theme"
+            android:textFontWeight="400"
+            android:textSize="@dimen/text_size_16"
+            android:theme="@style/DarkTheme_Switch" />
+
+        <Button
+            android:id="@+id/button_share_app"
+            style="@style/Settings_Button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/share_app"
+            app:icon="@drawable/share" />
+
+        <Button
+            android:id="@+id/button_call_support"
+            style="@style/Settings_Button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/support"
+            app:icon="@drawable/support" />
+
+        <Button
+            android:id="@+id/button_license"
+            style="@style/Settings_Button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/user_agreement"
+            app:icon="@drawable/arrow__right" />
+
+    </LinearLayout>
+
+</LinearLayout>
