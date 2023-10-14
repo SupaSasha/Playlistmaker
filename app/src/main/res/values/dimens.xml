@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="button_rounding">10dp</dimen>
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="image_button_size">48dp</dimen>
+
+    <dimen name="text_size_11">11sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_19">19sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+
+    <dimen name="indent_0">0dp</dimen>
+    <dimen name="indent_4">4dp</dimen>
+    <dimen name="indent_10">10dp</dimen>
+    <dimen name="indent_12">12dp</dimen>
+    <dimen name="indent_14">14dp</dimen>
+    <dimen name="indent_16">16dp</dimen>
+
+</resources>
